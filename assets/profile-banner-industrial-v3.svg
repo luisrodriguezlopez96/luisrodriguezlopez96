@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="440" viewBox="0 0 1400 440" role="img" aria-labelledby="title desc">
+  <title id="title">Luis Rodríguez López — Industrial Automation, Industrial Software and Applied AI</title>
+  <desc id="desc">A premium dark-blue technology banner combining industrial process equipment, a digital control dashboard and connected automation, data and AI symbols.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071326"/>
+      <stop offset=".48" stop-color="#102b4d"/>
+      <stop offset="1" stop-color="#08172d"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#143b60"/>
+      <stop offset="1" stop-color="#0b1c35"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#0ea5a4"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d4b70" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#07172c" stop-opacity=".96"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9cc8ee" stroke-opacity=".065" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.3" fill="#7dd3fc" fill-opacity=".16"/>
+    </pattern>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="smallGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="clip">
+      <rect width="1400" height="440" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1400" height="440" fill="url(#bg)"/>
+    <rect width="1400" height="440" fill="url(#grid)"/>
+    <circle cx="1120" cy="205" r="390" fill="url(#halo)"/>
+    <circle cx="1110" cy="180" r="240" fill="none" stroke="#38bdf8" stroke-opacity=".10" stroke-width="1"/>
+    <circle cx="1110" cy="180" r="190" fill="none" stroke="#2dd4bf" stroke-opacity=".10" stroke-width="1"/>
+
+    <!-- Atmospheric industrial skyline -->
+    <g opacity=".5">
+      <path d="M730 330V255h42v-48h27v123h30V230h45v100h24V190h36v140h30V240h32v90h28V205h44v125h30v-75h41v75h42v-60h31v60H730Z" fill="#102c48"/>
+      <path d="M785 207v-42h12v42M884 230v-75h12v75M967 190v-49h12v49M1100 205v-63h14v63" fill="none" stroke="#1f5778" stroke-width="5"/>
+      <path d="M780 165h22M878 155h24M961 141h24M1095 142h24" stroke="#38bdf8" stroke-opacity=".45" stroke-width="2"/>
+      <g fill="#fbbf24" opacity=".7">
+        <circle cx="792" cy="187" r="3"/><circle cx="890" cy="178" r="3"/><circle cx="973" cy="162" r="3"/><circle cx="1107" cy="164" r="3"/>
+      </g>
+    </g>
+
+    <!-- Ground / illuminated data-flow ribbons -->
+    <path d="M0 382C170 330 270 410 440 376S710 320 900 366s310 35 500-10" fill="none" stroke="#0ea5e9" stroke-opacity=".15" stroke-width="22" filter="url(#softGlow)"/>
+    <path d="M0 380C170 335 270 405 440 374S710 324 900 365s310 34 500-10" fill="none" stroke="url(#cyan)" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M0 399C170 354 270 424 440 393S710 343 900 384s310 34 500-10" fill="none" stroke="#2dd4bf" stroke-opacity=".22" stroke-width="1.5"/>
+
+    <!-- Left identity block -->
+    <rect x="70" y="63" width="7" height="285" rx="3.5" fill="url(#cyan)"/>
+    <rect x="70" y="63" width="7" height="285" rx="3.5" fill="#38bdf8" opacity=".3" filter="url(#smallGlow)"/>
+    <text x="108" y="91" fill="#67e8f9" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="4">ENGINEERING  /  AUTOMATION  /  INNOVATION</text>
+    <text x="103" y="177" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="61" font-weight="750" letter-spacing="-1.7">Luis Rodríguez</text>
+    <text x="103" y="244" fill="#67e8f9" font-family="Segoe UI,Arial,sans-serif" font-size="61" font-weight="750" letter-spacing="-1.7">López</text>
+    <text x="108" y="291" fill="#d6e5f5" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400">Industrial Automation  ·  Industrial Software  ·  Applied AI</text>
+
+    <!-- Specialty chips -->
+    <g font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1">
+      <rect x="108" y="322" width="128" height="38" rx="19" fill="#0c3856" stroke="#38bdf8" stroke-width="1.4"/>
+      <circle cx="128" cy="341" r="4" fill="#38bdf8"/>
+      <text x="181" y="346" fill="#dff6ff" text-anchor="middle">INDUSTRY</text>
+
+      <rect x="248" y="322" width="127" height="38" rx="19" fill="#0d3d4a" stroke="#2dd4bf" stroke-width="1.4"/>
+      <path d="M266 337l-5 4 5 4m9-8 5 4-5 4" fill="none" stroke="#5eead4" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="326" y="346" fill="#d7fff8" text-anchor="middle">SOFTWARE</text>
+
+      <rect x="387" y="322" width="119" height="38" rx="19" fill="#252b5b" stroke="#818cf8" stroke-width="1.4"/>
+      <circle cx="408" cy="341" r="5" fill="none" stroke="#a5b4fc" stroke-width="1.5"/>
+      <path d="M408 334v14m-7-7h14" stroke="#a5b4fc" stroke-width="1.2"/>
+      <text x="456" y="346" fill="#e3e8ff" text-anchor="middle">DATA &amp; AI</text>
+
+      <rect x="518" y="322" width="145" height="38" rx="19" fill="#123a50" stroke="#22d3ee" stroke-width="1.4"/>
+      <path d="M538 335h13v13h-13zM541 331v4m7-4v4m-7 13v4m7-4v4" fill="none" stroke="#67e8f9" stroke-width="1.4"/>
+      <text x="596" y="346" fill="#e0faff" text-anchor="middle">AUTOMATION</text>
+    </g>
+
+    <!-- Digital control screen -->
+    <g transform="translate(895 185)">
+      <rect x="10" y="10" width="390" height="205" rx="18" fill="#38bdf8" opacity=".2" filter="url(#softGlow)"/>
+      <rect x="0" y="0" width="390" height="205" rx="16" fill="#071629" stroke="#4cc9f0" stroke-opacity=".8" stroke-width="2"/>
+      <rect x="10" y="10" width="370" height="185" rx="10" fill="url(#glass)" stroke="#7dd3fc" stroke-opacity=".18"/>
+      <rect x="10" y="10" width="370" height="28" rx="10" fill="#123b5b"/>
+      <circle cx="28" cy="24" r="4" fill="#fb7185"/><circle cx="43" cy="24" r="4" fill="#fbbf24"/><circle cx="58" cy="24" r="4" fill="#34d399"/>
+      <text x="75" y="28" fill="#c7e8f8" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1.5">INDUSTRIAL CONTROL / LIVE OVERVIEW</text>
+      <rect x="25" y="53" width="155" height="124" rx="7" fill="#0b2541" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="38" y="70" fill="#8dbbd4" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1">ENERGY PROFILE</text>
+      <path d="M38 150H168M38 124H168M38 98H168" stroke="#5b89a8" stroke-opacity=".2" stroke-width="1"/>
+      <path d="M40 142L59 132L77 138L96 104L115 113L134 84L153 91L168 73" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M40 142L59 132L77 138L96 104L115 113L134 84L153 91L168 73V160H40Z" fill="#0ea5e9" opacity=".12"/>
+      <g fill="#2dd4bf">
+        <circle cx="59" cy="132" r="2.5"/><circle cx="96" cy="104" r="2.5"/><circle cx="134" cy="84" r="2.5"/><circle cx="168" cy="73" r="2.5"/>
+      </g>
+      <rect x="194" y="53" width="170" height="124" rx="7" fill="#0b2541" stroke="#2dd4bf" stroke-opacity=".25"/>
+      <text x="207" y="70" fill="#8dbbd4" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1">PROCESS SCHEMATIC</text>
+      <g stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M212 125H240V104H264V125H293V104H321V125H346"/>
+        <rect x="242" y="83" width="20" height="42" rx="5" fill="#123d5d"/>
+        <rect x="295" y="82" width="24" height="43" rx="6" fill="#123d5d"/>
+        <path d="M252 83V75h54v7m-84 43v12h124v-12"/>
+        <path d="M306 75V66h39v36" stroke="#2dd4bf"/>
+      </g>
+      <g fill="#2dd4bf">
+        <circle cx="212" cy="125" r="3"/><circle cx="346" cy="125" r="3"/><circle cx="345" cy="102" r="3"/>
+      </g>
+      <path d="M165 205v17h62" fill="none" stroke="#38bdf8" stroke-opacity=".6" stroke-width="4"/>
+      <path d="M223 222h-24l8 8 8-8" fill="#38bdf8" opacity=".8"/>
+      <rect x="95" y="205" width="200" height="7" rx="3.5" fill="#1d4e70"/>
+    </g>
+
+    <!-- Connected engineering capabilities -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M845 104C900 44 1020 35 1080 62S1210 42 1288 96" stroke="url(#cyan)" stroke-width="2" stroke-opacity=".75"/>
+      <path d="M845 104L845 145M1080 62V25M1208 53V115M1288 96V152" stroke="#38bdf8" stroke-opacity=".7" stroke-width="2"/>
+      <path d="M845 145H866M1080 25h22M1208 115h20M1288 152h16" stroke="#2dd4bf" stroke-opacity=".7" stroke-width="2"/>
+    </g>
+    <g font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" text-anchor="middle">
+      <g>
+        <circle cx="845" cy="104" r="27" fill="#0b2d4b" stroke="#38bdf8" stroke-width="2.5"/>
+        <text x="845" y="108" fill="#dff7ff">PLC</text>
+      </g>
+      <g>
+        <circle cx="1080" cy="62" r="29" fill="#0b3543" stroke="#2dd4bf" stroke-width="2.5"/>
+        <text x="1080" y="66" fill="#d9fff8">SCADA</text>
+      </g>
+      <g>
+        <circle cx="1208" cy="53" r="27" fill="#222b5b" stroke="#818cf8" stroke-width="2.5"/>
+        <text x="1208" y="57" fill="#eff0ff">DATA</text>
+      </g>
+      <g>
+        <circle cx="1288" cy="152" r="27" fill="#0b2d4b" stroke="#38bdf8" stroke-width="2.5"/>
+        <text x="1288" y="156" fill="#dff7ff">AI</text>
+      </g>
+    </g>
+    <g fill="#7dd3fc" opacity=".8">
+      <circle cx="845" cy="104" r="3" filter="url(#smallGlow)"/>
+      <circle cx="1080" cy="62" r="3" filter="url(#smallGlow)"/>
+      <circle cx="1208" cy="53" r="3" filter="url(#smallGlow)"/>
+      <circle cx="1288" cy="152" r="3" filter="url(#smallGlow)"/>
+    </g>
+    <text x="1340" y="414" fill="#7fabc8" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="600" text-anchor="end" letter-spacing="2.5">DESIGN  ·  INTEGRATE  ·  IMPROVE</text>
+  </g>
+</svg>
