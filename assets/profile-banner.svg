@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Luis Rodríguez López — Industrial Automation, Software and Applied AI</title>
+  <desc id="desc">Professional banner with a dark blue technology background, cyan circuit lines and connected industrial data nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1428"/>
+      <stop offset=".58" stop-color="#142d50"/>
+      <stop offset="1" stop-color="#102039"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset=".55" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#9cc8ee" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <circle cx="1010" cy="170" r="270" fill="url(#glow)"/>
+  <path d="M0 300 C220 250 310 360 520 300 S850 230 1200 285" fill="none" stroke="#2dd4bf" stroke-opacity=".22" stroke-width="2"/>
+  <path d="M0 315 C220 265 310 375 520 315 S850 245 1200 300" fill="none" stroke="#60a5fa" stroke-opacity=".2" stroke-width="1"/>
+  <rect x="64" y="54" width="8" height="228" rx="4" fill="url(#accent)"/>
+  <text x="100" y="92" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4">ENGINEERING · AUTOMATION · INNOVATION</text>
+  <text x="96" y="164" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="750" letter-spacing="-1">Luis Rodríguez López</text>
+  <text x="100" y="207" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="22">Industrial Automation  /  Industrial Software  /  Applied AI</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">
+    <rect x="100" y="239" width="112" height="34" rx="17" fill="#123d58" stroke="#38bdf8" stroke-opacity=".7"/>
+    <text x="156" y="261" text-anchor="middle" fill="#bae6fd">INDUSTRY</text>
+    <rect x="224" y="239" width="94" height="34" rx="17" fill="#123d58" stroke="#2dd4bf" stroke-opacity=".7"/>
+    <text x="271" y="261" text-anchor="middle" fill="#99f6e4">SOFTWARE</text>
+    <rect x="330" y="239" width="78" height="34" rx="17" fill="#242d5a" stroke="#818cf8" stroke-opacity=".8"/>
+    <text x="369" y="261" text-anchor="middle" fill="#c7d2fe">DATA &amp; AI</text>
+  </g>
+  <g transform="translate(850 68)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 36H150V84H225M150 84V144H235M42 196H112V144H150M150 84H150V36" stroke="url(#accent)" stroke-width="3" stroke-opacity=".85"/>
+    <path d="M225 84H275V36M235 144H275V196" stroke="#60a5fa" stroke-width="2" stroke-opacity=".7"/>
+    <circle cx="42" cy="36" r="18" fill="#0f2d47" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="150" cy="84" r="24" fill="#10384a" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="235" cy="144" r="19" fill="#242d5a" stroke="#818cf8" stroke-width="3"/>
+    <circle cx="42" cy="196" r="13" fill="#0f2d47" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="275" cy="36" r="10" fill="#0f2d47" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="275" cy="196" r="10" fill="#242d5a" stroke="#818cf8" stroke-width="3"/>
+  </g>
+  <g fill="#e2e8f0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1">
+    <text x="891" y="112">PLC</text>
+    <text x="1000" y="165">DATA</text>
+    <text x="1088" y="220">AI</text>
+  </g>
+  <text x="1135" y="310" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="11" text-anchor="end" letter-spacing="2">BUILD · INTEGRATE · IMPROVE</text>
+</svg>
