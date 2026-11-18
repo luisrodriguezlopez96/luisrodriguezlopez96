@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/luisrodriguezlopez96/luisrodriguezlopez96/main/assets/profile-banner.svg" alt="Luis Rodríguez López — Automatización industrial, software e IA" width="100%" />
+  <img src="https://raw.githubusercontent.com/luisrodriguezlopez96/luisrodriguezlopez96/main/assets/profile-banner-industrial-v3.svg" alt="Luis Rodríguez López — Automatización industrial, software e IA" width="100%" />
 </div>
 
 <div align="center">
